@@ -133,6 +133,7 @@ ramips_setup_interfaces()
 	dir-320-b1 | \
 	dir-615-h1 | \
 	firewrt | \
+	aps512  | \
 	pbr-m1 | \
 	hlk-rm04 | \
 	mt7621 | \
