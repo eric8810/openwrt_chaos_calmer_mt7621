@@ -81,4 +81,17 @@
 			};
 		};
 	};
+	
+	gpio-keys-polled {
+		compatible = "gpio-keys-polled";
+		#address-cells = <1>;
+		#size-cells = <0>;
+		poll-interval = <20>;
+
+		reset {
+			label = "reset";
+			gpios = <&gpio0 23 1>;
+			linux,code = <0x198>;
+		};
+	};
 };
